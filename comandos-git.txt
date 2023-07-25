@@ -1,0 +1,8 @@
+iniciamos git: git init
+agregamos el remoto: git remote add origin https://github.com/Patricio-Castillo/primero.git
+checamos el estatus: git estatus
+agregamos nuestro archivo: git add <nombre del archivo> ejemplo: git add index.html
+checamos el estatus y verificamos que se haya cambiado a verde: git estatus
+hacemos un commit con algun mensaje con los cambios realizados: git commit -m "agrege el index.html"
+lo subimos a github (si nos da algun error hacemos upstream con: git push --set-upstream origin master): git push
+al hacer algun cambio volvemos a hacer el: git add <nombre del archivo> el commit y el git push
